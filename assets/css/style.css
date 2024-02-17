@@ -1,0 +1,34 @@
+/* Apply styles to the entire table */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Style the table header */
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Add background color to the table header */
+.styled-table th {
+  background-color: #f2f2f2;
+}
+
+/* Style alternating rows */
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+/* .styled-table tbody tr:hover {
+  background-color: #e0e0e0;
+} */
+.styled-table tr td img {
+  width: 50px;
+  height: 50px;
+}
